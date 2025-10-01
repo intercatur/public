@@ -13,7 +13,7 @@ html{
 	position: relative;
 }
 body{
-	background: url('bg.jpg') center fixed repeat;
+	background: url('https://cdn.jsdelivr.net/gh/intercatur/public@main/bg.jpg') center fixed repeat;
 }
 #top-panel{
 	padding: 5px;
@@ -71,4 +71,5 @@ body{
 	max-width: 200px;
 	margin: auto;
 	display: block;
+
 }
