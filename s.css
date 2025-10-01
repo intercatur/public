@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+}
+html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body{
+	background: url('bg.jpg') center fixed repeat;
+}
+#top-panel{
+	padding: 5px;
+	background-color: #4764e4;
+	box-shadow: 0 0 4px #555;
+}
+#top-panel a{
+	margin: 0 5px;
+	color: #FFF;
+	text-decoration: none;
+	padding: 2px 4px;
+	border-radius: 1px;
+}
+#top-panel a:hover{
+	background-color: #000;
+}
+#box-out{
+	max-width: 800px;
+	width: 100%;
+	padding: 10px;
+	display: block;
+	margin: auto;
+}
+#box-in{
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #EAEAEA;
+	background-color: #FFF;
+	box-shadow: 0 0 4px #555;
+}
+#id1, #id3, #id8, #id13, #id17, #id19{
+	font-size: 35px;
+	font-weight: bold;
+}
+.br{
+	padding: 10px 0;
+	display: block;
+}
+.lh-h{
+	line-height: 50px;
+}
+.lh-m{
+	line-height: 30px;
+}
+.under{
+	width: 40px;
+	height: 2px;
+	background-color: #EAEAEA;
+	margin: 10px 0;
+}
+#img img{
+	border-radius: 100%;
+	border: 2px solid #EAEAEA;
+	box-shadow: 0 0 4px #222;
+	max-width: 200px;
+	margin: auto;
+	display: block;
+}
